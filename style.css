@@ -566,6 +566,30 @@ main {
   .hero-text a {
     width: 25%;
   }
+  .eachres section ul li {
+    font-size: 0.9em;
+  }
+}
+@media screen and (max-width: 990px) {
+  .eachres {
+    flex-direction: column;
+  }
+.eachres h1,h3{
+  text-align: center;
+}
+  .eachres section {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+  }
+  .eachres section img {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .icoback{
+position: static;
+display: inline-block;
+}
 }
 @media screen and (max-width: 1110px) {
   .hero-text {
@@ -609,7 +633,7 @@ main {
   .hero-text p {
     text-align: center;
   }
-  
+
   nav {
     height: 3rem;
     justify-content: center;
@@ -640,6 +664,12 @@ main {
   }
   .hero-text p {
     font-size: 1em;
+  }
+  .eachres section ul li {
+    font-size: 0.8em;
+  }
+  .eachres section img {
+    width: 80%;
   }
 }
 @media screen and (max-width: 550px) {
@@ -681,7 +711,11 @@ main {
   .hero-text a {
     width: 54%;
   }
-nav ul li{
-  font-size: 1.2em;
-}
+  nav ul li {
+    font-size: 1.1em;
+  }
+  
+  .eachres section img {
+    width: 100%;
+  }
 }
