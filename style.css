@@ -524,3 +524,52 @@ padding-left: 3rem;
   background: #f8f8f8;
 
 }
+
+@media screen and (max-width:1450px) {
+  .order-our-best {
+    width: 95%;
+    border: 1px solid red;
+  }
+  
+}
+@media screen and (max-width:1265px) {
+  .productTitle {
+
+    font-size: 1.5rem;
+   
+  }
+  
+  .productCard {
+    width: 32%;}
+  
+}
+@media screen and (max-width:845px) {
+  .productTitle {
+
+    font-size: 1.3rem;
+   
+  }
+  
+  .productCard {
+    width: 45%;
+  }
+  .order-our-best{
+    margin: 0 auto;
+
+  }
+}
+@media screen and (max-width:550px) {
+  .productTitle {
+
+    font-size: 1.5rem;
+   
+  }
+  
+  .productCard {
+    width: 90%;
+  }
+  .order-our-best{
+    width: 100%;
+    margin: 0 auto;
+  }
+}
