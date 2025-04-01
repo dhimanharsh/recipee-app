@@ -79,6 +79,9 @@ main {
   display: inline-block;
   width: 22%;
   color: wheat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 25px;
   transition: all 0.4s;
   box-shadow: 0px 0px 8px 5px rgba(0, 0, 0, 0.24);
@@ -128,18 +131,19 @@ main {
 }
 
 .arrow-img {
-  width: 25rem;
+  width: 23rem;
   display: flex;
   justify-content: space-between;
   align-items: end;
 }
 
 .arrow-img img {
-  height: 8em;
+  height: 6em;
 }
 
 .arrow-img i {
   padding: 1.1em;
+  margin-left: 2em;
   border-radius: 51px;
   background-color: #49832e;
   color: white;
@@ -547,7 +551,6 @@ main {
   }
 }
 
-
 @media screen and (max-width: 1290px) {
   .hero-text {
     width: 60%;
@@ -568,11 +571,9 @@ main {
 @media screen and (max-width: 1110px) {
   .hero-text {
     width: 70%;
-    border: 1px solid red;
   }
   .hero-text h1 {
     font-size: 5rem;
-    border: 1px solid red;
   }
 }
 @media screen and (max-width: 1100px) {
@@ -584,47 +585,69 @@ main {
     gap: 0.5em;
     justify-content: center;
   }
-.foods{
-  display: none;
-}
+  .foods {
+    display: none;
+  }
   .input-field input {
     width: 40%;
   }
 }
-@media screen and (max-width:900px) {
-  .hero-text a{
+@media screen and (max-width: 900px) {
+  .hero-text a {
     width: 35%;
   }
-  
 }
-@media screen and (max-width:799px) {
+@media screen and (max-width: 799px) {
   .hero-text {
     width: 90%;
     border: 1px solid red;
+    position: static;
+    margin: 0 auto;
+    align-items: center;
   }
   .hero-text h1 {
     font-size: 5rem;
     border: 1px solid red;
   }
+  .hero-text p {
+    text-align: center;
+  }
   
+  nav {
+    height: 3rem;
+    border: 1px solid red;
+    justify-content: center;
+  }
+
+  nav ul {
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid red;
+    width: 90%;
+    margin: 0 auto;
+    padding-right: 0rem;
+  }
+
+  nav ul li {
+    font-size: 1.5em;
+  }
 }
 
-@media screen and (max-width:620px) {
+@media screen and (max-width: 620px) {
   .hero-text {
     width: 90%;
     border: 1px solid red;
   }
-  .hero-text h2{
+  .hero-text h2 {
     font-size: 4.5em;
   }
   .hero-text h1 {
     font-size: 4rem;
     border: 1px solid red;
   }
-  .hero-text p{
+  .hero-text p {
     font-size: 1em;
   }
-  
 }
 @media screen and (max-width: 550px) {
   .productTitle {
@@ -645,26 +668,27 @@ main {
     width: 45%;
   }
 }
-@media screen and (max-width:500px) {
+@media screen and (max-width: 500px) {
   .hero-text {
     width: 90%;
     border: 1px solid red;
-    position:static;
+    position: static;
     margin: 0 auto;
     align-items: center;
   }
-  .hero-text h2{
+  .hero-text h2 {
     font-size: 3.5em;
   }
   .hero-text h1 {
     font-size: 3rem;
     border: 1px solid red;
   }
-  .hero-text p{
-    font-size: .8em;
+  .hero-text p {
+    font-size: 0.8em;
     text-align: center;
   }
-  .hero-text a{
-    width: 50%;
+  .hero-text a {
+    width: 54%;
   }
+
 }
