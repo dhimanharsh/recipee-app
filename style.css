@@ -584,7 +584,9 @@ main {
     gap: 0.5em;
     justify-content: center;
   }
-
+.foods{
+  display: none;
+}
   .input-field input {
     width: 40%;
   }
