@@ -681,5 +681,7 @@ main {
   .hero-text a {
     width: 54%;
   }
-
+nav ul li{
+  font-size: 1.2em;
+}
 }
