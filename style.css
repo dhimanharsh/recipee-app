@@ -593,6 +593,9 @@ padding-left: 3rem;
     margin: 0 auto;
   }
   .veg-non{
-    left: 20%;
+    left: 23%;
+  }
+  .input-field input {
+    width: 45%;
   }
 }
