@@ -631,14 +631,12 @@ main {
 @media screen and (max-width: 620px) {
   .hero-text {
     width: 90%;
-    border: 1px solid red;
   }
   .hero-text h2 {
     font-size: 4.5em;
   }
   .hero-text h1 {
     font-size: 4rem;
-    border: 1px solid red;
   }
   .hero-text p {
     font-size: 1em;
